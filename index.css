@@ -1,0 +1,139 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --bg-color: #45aec7;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+
+  background-color: var(--bg-color);
+}
+
+.logo {
+  width: 15%;
+  height: 2rem;
+
+  margin-left: 1rem;
+
+  background-image: url(./picture/logo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  display: grid;
+  place-content: center;
+}
+
+.tabs {
+  width: 90%;
+  text-align: center;
+}
+
+.tabs a {
+  text-decoration: none;
+  color: #fff;
+  line-height: 4rem;
+  padding: 0 1rem;
+
+  font-weight: 600;
+}
+
+.tabs a:hover {
+  color: rgb(209, 209, 209);
+}
+
+.life {
+  margin: 2rem;
+  padding: 2rem 10vw;
+  border: 1px solid var(--bg-color);
+  text-align: center;
+}
+
+.life .cat {
+  font-weight: 500;
+  color: var(--bg-color);
+  text-decoration: underline;
+  font-size: 1.2rem;
+}
+.life .body {
+  margin: 1rem 0;
+}
+
+.life img {
+  width: 25vw;
+  height: 30vh;
+}
+
+.contact {
+  margin: 2rem;
+  padding: 2rem 10vw;
+  border: 1px solid var(--bg-color);
+  text-align: center;
+}
+
+.contact div {
+  line-height: 2.5rem;
+}
+
+.content {
+  margin: 2rem;
+  padding: 2rem 10vw;
+  border: 1px solid var(--bg-color);
+  text-align: center;
+}
+
+.about {
+  margin: 2rem;
+  padding: 2rem 10vw;
+  border: 1px solid var(--bg-color);
+  text-align: center;
+}
+
+.about .text {
+  line-height: 3rem;
+}
+
+.homepage {
+  margin: 2rem;
+  padding: 2rem 10vw;
+  border: 1px solid var(--bg-color);
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+span {
+  color: var(--bg-color);
+}
+
+.homepage .text {
+  color: rgb(124, 124, 124);
+  margin-bottom: 2rem;
+}
+
+.homepage .pic {
+  display: grid;
+  place-content: center;
+  width: 40vw;
+  height: 40vh;
+  background-image: url(./picture/seavlong.JPG);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
